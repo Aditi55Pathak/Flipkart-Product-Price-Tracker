@@ -7,14 +7,12 @@ document.getElementById('fetch-details').addEventListener('click', async functio
         return;
     }
 
-    // Show loading state
     productInfoDiv.innerHTML = '<p>Loading product details...</p>';
 
     try {
-        // Adjust the URL to call fetch_product.php directly, ensuring it's a valid Flipkart product URL
+      
         const response = await fetch(`fetch_product.php?url=${encodeURIComponent(productUrl)}`);
         
-        // Check if the response is ok (status in the range 200-299)
         if (!response.ok) {
             throw new Error(`HTTP error: ${response.status}`);
         }
