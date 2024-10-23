@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Price Tracker - Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-page">
+        <header class="header">
+            <h1>Flipkart Product Price Tracker</h1>
+            <p style="color: azure;">Track prices of your favorite products effortlessly.</p>
+        </header>
+        <div class="container">
+            <div class="form-container">
+                <div class="input-group">
+                    <input type="text" id="product-link" placeholder="Paste Flipkart product link here">
+                    <button id="fetch-details" class="btn btn-primary">Fetch Details</button>
+                </div>
+
+                <!-- Display for product details -->
+                <div id="product-info" class="product-details">
+                    <!-- Product details will be displayed here -->
+                </div>
+
+                <!-- List of products and prices -->
+                <div id="product-list" class="product-list">
+                    <!-- List of all products with their prices and history will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Link to the script file -->
+    <script src="script.js"></script>
+</body>
+</html>
