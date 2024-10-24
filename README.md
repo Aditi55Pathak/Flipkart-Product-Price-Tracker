@@ -11,6 +11,14 @@ The **Flipkart Price Tracker** is a web application that allows users to track t
 - **Search and Filter**: Users can search for products by title and filter them based on price ranges, making it easier to find the right products.
 - **Responsive Design**: The application is designed to be mobile-friendly and works seamlessly across different devices.
 
+Attached Video
+
+
+
+
+https://github.com/user-attachments/assets/39312725-b949-4f6f-94d6-868b147a8580
+
+
 ![image](https://github.com/user-attachments/assets/ed0a228b-dc5d-4e63-8c2d-fbbeac6c226d)
 
 ![image](https://github.com/user-attachments/assets/d24d1864-55da-4071-9b03-bcad8efd6a1a)
